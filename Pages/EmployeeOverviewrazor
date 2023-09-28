@@ -1,0 +1,12 @@
+﻿@page "/employee/list"
+@using WiredBrainCoffee.EmployeeManager.Data.Models
+
+<PageTitle>Employees</PageTitle>
+
+<h1>Employees</h1>
+
+Todo: list the employees here.
+
+@code {
+	private Employee[]? Employees{ get; set;}
+}
